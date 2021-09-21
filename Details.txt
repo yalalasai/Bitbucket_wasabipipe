@@ -1,0 +1,5 @@
+https://<site-url>/rest/api/3/
+
+
+before deploying agw/lb we need ssl certificate
+agw perp is used to create a user
