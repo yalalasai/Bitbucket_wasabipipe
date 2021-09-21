@@ -1,0 +1,22 @@
+name: Wasabi S3 Deploy
+image: bitbucketpipelines/wasabi-s3-deploy:1.1.0
+description: Deploy to Wasabi S3.
+category: Deployment
+repository: https://bitbucket.org/atlassian/wasabi-s3-deploy
+maintainer:
+  name: H-Town Technologies
+  website: https://www.htown-tech.com/
+vendor:
+  name: Wasabi
+  website: https://wasabi.com/
+variables:
+  - name: AWS_ACCESS_KEY_ID
+    default: "$AWS_ACCESS_KEY_ID"
+  - name: AWS_SECRET_ACCESS_KEY
+    default: "$AWS_SECRET_ACCESS_KEY"
+  - name: AWS_DEFAULT_REGION
+    default: "$AWS_DEFAULT_REGION"
+tags:
+- deployment
+- Wasabi
+- S3        
